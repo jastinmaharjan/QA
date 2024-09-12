@@ -34,7 +34,7 @@ chore: update dependencies
 8. build
 build:.....
 
-9. ci
+9. ci/cd
 benefits: 
 
 consistency
