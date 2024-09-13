@@ -5,7 +5,7 @@
 # a=5
 # b=4
 # print(a,b)
-from cgitb import reset
+# from cgitb import reset
 
 #define the variable called name
 # name ="qa class"
