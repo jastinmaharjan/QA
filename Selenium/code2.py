@@ -9,7 +9,8 @@ import time
 driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
 
 #open the desire website
-website_url= "https://khalti.com/"
+# website_url= "https://khalti.com/"
+website_url= "https://www.geek-engineering.com/"
 
 #open the website
 driver.get(website_url)
