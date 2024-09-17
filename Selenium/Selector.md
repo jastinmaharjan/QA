@@ -1,0 +1,5 @@
+Name= driver.find_element(*(By.XPATH,"//input[@placeholder='Name']"))
+Email= driver.find_element(*(By.XPATH,"//input[@placeholder='Email']"))
+Phone= driver.find_element(*(By.XPATH,"//input[@placeholder='Phone']"))
+Subject= driver.find_element(*(By.XPATH,"//input[@placeholder='Subject']"))
+Any Queries= driver.find_element(*(By.XPATH,"//textarea[@placeholder='Queries']"))
