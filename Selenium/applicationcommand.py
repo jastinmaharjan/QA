@@ -28,22 +28,26 @@ AnyQueries= driver.find_element(*(By.XPATH,"//textarea[@placeholder='Queries']")
 
 #fill the form
 Name.send_keys("test")
-time.sleep(3)
+time.sleep(1)
 Email.send_keys("test@gmail.com")
-time.sleep(3)
+time.sleep(1)
 Phone.send_keys("98612345678")
 Subject.send_keys("QA")
-time.sleep(3)
+time.sleep(1)
 AnyQueries.send_keys("Hello Mindrisers")
 
 #use of application command
 #1 extract and print website title
 website_title=driver.title
-print(f"website title is ", {website_title})
+print(f"website title is ",website_title)
 
 #2. get the curernt url
 current_url= driver.current_url
-print(f"Current url is: ", {current_url})
+print(f"Current url is: ",current_url)
+
+#3 get page source
+page_source=driver.page_source
+print(f"pagesource: ",page_source)
 
 #close the webdriver instance
 driver.quit()
