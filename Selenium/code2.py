@@ -24,7 +24,7 @@ time.sleep(5)
 page_height=driver.execute_script("return document.body.scrollHeight")
 
 #scrool down
-scroll_speed= 300
+scroll_speed= 500
 scroll_iteration=int(page_height/scroll_speed)
 
 #loop to perform the scrolling increments
