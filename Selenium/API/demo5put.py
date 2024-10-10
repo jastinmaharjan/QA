@@ -34,7 +34,7 @@ def put_reqest(user_id):
     assert response.status_code == 200
     json_data = response.json()
     json_str = json.dumps(json_data, indent=4)
-    print("Json Get request body{page}", json_str)
+    print("Json Put request body{page}", json_str)
     print("====Put method is done successfully====")
 
 # call the function
