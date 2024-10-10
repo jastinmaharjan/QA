@@ -1,6 +1,5 @@
-# Fetching Paginated Data using GET Requests with Authorization in Python
 
-# get request:
+# get request/error handling:
 import requests
 import json
 
@@ -12,8 +11,10 @@ auth_token="token ....token value"
 
 def get_request(page):
     url=f"{base_url}/users?page={page}"
-    print(f"Get Url:{url}")
+
     headers={"Authorization":auth_token} if auth_token else ()
+
+
     response= requests.get(url,headers=headers)
     assert  response.status_code ==200
     json_date=response.json()
