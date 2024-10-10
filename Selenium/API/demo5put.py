@@ -13,7 +13,7 @@ auth_token="token ....token value"
 # get the random generate email
 def generate_random_email():
     domain="gmail.com"
-    email_length=5
+    email_length=6
     random_string=''.join(random.choice(string.ascii_lowercase) for _ in range(email_length))
     email=random_string +"@" +domain
     return email
